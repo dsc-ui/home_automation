@@ -1,6 +1,6 @@
 
 char bluetoothVal;//converting data received from serial monitor to integer
-int relaySwitch = 8;
+int relaySwitch = 2;
 bool val = HIGH;
 void setup() {
   Serial.begin(9600);//enable serial monitor
